@@ -11,6 +11,6 @@ visualizeModel <- function(data, model) {
          y = "Miles per Gallon (MPG)")
   print(p)
   
-  # Optionally save the plot to the results folder
-  # ggsave("../results/regression_plot.png", plot = p)
+  # save the plot
+  ggsave("regression_plot.png", plot = p)
 }

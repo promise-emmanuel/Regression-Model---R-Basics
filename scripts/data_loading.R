@@ -9,7 +9,7 @@ loadData <- function() {
   return(data)
 }
 
-# Option 2: If using CSV, uncomment and modify:
+# safe-keeping: if i wanted to use/load an external csv file 
 # library(readr)
 # loadData <- function() {
 #   data <- read_csv("../data/your_dataset.csv")
